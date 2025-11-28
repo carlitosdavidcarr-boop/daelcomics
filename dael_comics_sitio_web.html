@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAEL COMICS — Historias, Cómics y Universo Original</title>
+
+    <meta name="description" content="DAEL COMICS: un universo original donde publico mis historias, personajes, arte conceptual y cómics indies." />
+    <meta name="keywords" content="cómics indies, webcomic, historias originales, personajes, universo, arte conceptual" />
+
+    <style>
+        body {
+            margin: 0;
+            background: #0d0d0d;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        header {
+            background: #111;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 2px;
+            color: #ff4545;
+        }
+
+        nav a {
+            color: #f0f0f0;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(180deg, #1a1a1a, #0d0d0d);
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            color: #ff4545;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        h2 {
+            color: #ff4545;
+            border-left: 4px solid #ff4545;
+            padding-left: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #ff4545;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #ff4545;
+            color: #fff;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 10px;
+            background: #111;
+            margin-top: 40px;
+            border-top: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DAEL COMICS</h1>
+        <nav>
+            <a href="#personajes">Personajes</a>
+            <a href="#comics">Cómics</a>
+            <a href="#historias">Historias</a>
+            <a href="#universo">Universo</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Bienvenido al Universo DAEL</h2>
+        <p>Descubre héroes, villanos, batallas épicas y mundos creados desde cero.</p>
+    </section>
+
+    <div class="container" id="personajes">
+        <h2>Personajes</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Ultimán</h3>
+                <p>Entidad poderosa, símbolo de justicia y una de las fuerzas principales del universo DAEL.</p>
+                <a class="btn" href="#">Ver más</a>
+            </div>
+            <div class="card">
+                <h3>Bellator</h3>
+                <p>Guerrero ancestral, uno de los primeros héroes creados para este universo.</p>
+                <a class="btn" href="#">Ver más</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="comics">
+        <h2>Cómics</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Capítulo 1 — El Comienzo</h3>
+                <p>El origen de una batalla que cambiará todos los mundos.</p>
+                <a class="btn" href="#">Leer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="historias">
+        <h2>Historias</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Historia 1</h3>
+                <p>Relatos cortos del universo y sus personajes.</p>
+                <a class="btn" href="#">Leer</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="universo">
+        <h2>Universo y Lore</h2>
+        <p>Aquí puedes explicar dimensiones, líneas de tiempo, facciones, razas, tecnologías o energías de tu mundo.</p>
+    </div>
+
+    <footer id="contacto">
+        <p>DAEL COMICS — Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
